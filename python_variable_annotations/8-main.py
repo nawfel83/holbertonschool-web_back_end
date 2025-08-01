@@ -1,4 +1,3 @@
-# python_variable_annotations/8-main.py
 #!/usr/bin/env python3
 """Main file for testing make_multiplier function."""
 

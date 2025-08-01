@@ -1,4 +1,3 @@
-# python_variable_annotations/3-main.py
 #!/usr/bin/env python3
 """Main file for testing to_str function."""
 
