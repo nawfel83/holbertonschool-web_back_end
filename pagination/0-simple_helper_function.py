@@ -6,16 +6,16 @@ from typing import Tuple
 
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
-    """
-    Returns a tuple of start and end indexes for pagination.
+        """
+    Compute start and end indexes for pagination.
 
     Args:
-        page (int): The current page number (1-indexed).
-        page_size (int): The number of items per page.
+        page (int): Current page number (1-indexed).
+        page_size (int): Items per page.
 
     Returns:
-        tuple: (start_index, end_index)
-    """
+        Tuple[int, int]:
+        """
     start_index = (page - 1) * page_size
     end_index = page * page_size
     return start_index, end_index
