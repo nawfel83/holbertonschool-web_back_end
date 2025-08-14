@@ -42,7 +42,7 @@ class Server:
             page_size (int): Number of items per page.
 
         Returns:
-            Dict: Pagination info including index, next_index, page_size, and data.
+            Dict: Dictionary containing pagination info.
         """
         assert isinstance(index, int) and index >= 0
         assert isinstance(page_size, int) and page_size > 0
